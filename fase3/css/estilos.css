@@ -1,0 +1,63 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 20px;
+background-color: rgb(0, 162, 255) ;
+color: white;
+}
+.menu li{
+    display: inline-block;
+}
+li a, boton{
+    display: inline-block;
+    color: rgb(11, 11, 245); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+.listaDesplegable{
+    display: none;
+    background-color: thistle;
+    position: absolute;
+}
+.listaDesplegable a{
+    color: rgb(1, 26, 26);
+    display: block;
+    text-align: left;
+}
+.boton:hover .listaDesplegable{
+display: block;
+}
+li a:hover{
+    background-color: azure;
+}
+nav {
+background-color: rgb(36, 230, 155);  
+text-align: center;  
+}
+section{
+    float: left;
+    width: 80%;
+    background-color: rgb(0, 195, 255);
+    color: black;
+
+}
+aside{
+    float: left;
+    width: 20%;
+    background-color:beige;
+    color: black;
+}
+footer{
+    padding: 10px;
+    background-color:rgb(216, 167, 76) ;
+    color: black;
+}
+.Contenedor::after{
+    content:"" ;
+    display: block;
+    clear: both;
+}
